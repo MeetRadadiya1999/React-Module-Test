@@ -1,0 +1,87 @@
+/* components/AddGroupPopup.css */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    min-height: 15vw;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  
+  .popup-inner {
+  
+    min-width: 90%;
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .popup h2 {
+    margin-bottom: 1vw;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 500;
+  }
+
+  .color-heading, .group-name{
+    margin: 0 1vw;
+    font-size: 1.2em;
+    font-weight: 500;
+    /* display: inline-block; */
+
+    /* align-content: center; */
+  }
+  
+  .popup input {
+    margin-bottom: 1vw;
+    width: 60%;
+    padding: 0.5vw 1vw;
+    border: 1px solid #d2d2d2;
+    border-radius: 1em;
+  }
+
+  .color-heading{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8vw
+  }
+
+
+  .color{
+    background-color: #33cb09;
+    /* display: inline-block; */
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    background-color: attr(value);
+    align-content: center;
+    cursor: pointer;
+  }
+  
+  .selected {
+    border: 0.1rem solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+ }
+
+  .popup button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    position: fixed;
+    right: 5vw;
+    bottom: 1vw;
+    width: 20%;
+    padding: 0.5vw 2vw;
+    border-radius: 0.2em;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  

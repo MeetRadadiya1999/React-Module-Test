@@ -1,0 +1,45 @@
+.main-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0e762; */
+    /* margin: 0; */
+    line-height: 0;
+}
+
+.main-div img{
+    height: 35%;
+    width: 50%;
+}
+
+.main-div h3{
+    font-size: 3em;
+    /* background-color: #fff; */
+    margin: 1vw;
+
+}
+
+.paragraph{
+    width: 45%;
+    text-align: center;
+    line-height: normal;
+    /* background-color: #fff; */
+    font-size: 1em;
+    font-weight: 650;
+    /* margin: 0; */
+}
+
+.encrypt-div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1vw;
+}
+.encrypt-div i{
+margin: 0 0.6vw;
+}
+
