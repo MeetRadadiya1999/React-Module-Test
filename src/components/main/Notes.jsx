@@ -50,7 +50,7 @@ function Notes() {
   // Fetch messages from local storage when component mounts
   useEffect(() => {
     getMessagesFromLocalStorage();
-  }, [selectedGroup]);
+  }, [selectedGroup, getMessagesFromLocalStorage]);
 
     // Update hasText state when textarea value changes
     useEffect(() => {
