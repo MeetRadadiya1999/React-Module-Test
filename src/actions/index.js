@@ -18,3 +18,10 @@ export const selectGroup = (group) => ({
   type: 'SELECT_GROUP',
   payload: group
 });
+
+export const backToHome = () => ({
+      type: 'BACK_HOME',
+})
+export const resetBackToHome = () => ({
+      type: 'RESET_BACK_HOME',
+})

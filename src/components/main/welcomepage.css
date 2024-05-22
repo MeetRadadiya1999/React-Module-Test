@@ -1,23 +1,20 @@
-.main-div{
+.welcome-div{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #f0e762; */
-    /* margin: 0; */
     line-height: 0;
 }
 
-.main-div img{
+.welcome-div img{
     height: 35%;
     width: 50%;
 }
 
-.main-div h3{
+.welcome-div h3{
     font-size: 3em;
-    /* background-color: #fff; */
     margin: 1vw;
 
 }
@@ -26,10 +23,8 @@
     width: 45%;
     text-align: center;
     line-height: normal;
-    /* background-color: #fff; */
     font-size: 1em;
     font-weight: 650;
-    /* margin: 0; */
 }
 
 .encrypt-div{
@@ -43,3 +38,9 @@
 margin: 0 0.6vw;
 }
 
+@media screen and (max-width: 600px) {
+    .welcome-div{
+        display: none;
+    }
+
+}

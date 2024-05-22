@@ -1,5 +1,6 @@
 .notes{
   width: 70vw;
+  height: 100%;
 }
 
 .navbar {
@@ -13,7 +14,21 @@
   display: flex;
   align-items: center;
   margin: 0 1vw;
+  height: 100%;
 }
+
+.color-div-navbar {
+  width: 3vw;
+  height: 3vw;
+  text-align: center;
+  align-content: center;
+  border-radius: 50%;
+  margin-right: 2vw;
+  font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+}
+
 .navbar-heading h1 {
   background: transparent;
   color: #ffffff;
@@ -72,7 +87,6 @@
   border: 1em solid #001f8b;
   resize: none;
   padding: 1vw;
-  font-size: 1.5em;
   border-radius: 2em;
   outline: none;
   padding-right: 5vw;
@@ -94,4 +108,82 @@
 .active {
   cursor: pointer;
   color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .notes{
+    width: 100vw;
+  }
+
+  .navbar {
+    height: 10%;
+  }
+
+  .back-button{
+    height: 10vw;
+    width: 10vw;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5vw;
+    font-size: 1.4em;
+  }
+
+  .navbar-heading {
+    margin: 0 2vw;
+  }
+
+  .navbar-heading h1 {
+    font-size: 1.5em;
+  }
+
+  .color-div-navbar {
+    width: 9vw;
+    height: 9vw;
+    margin-right: 3vw;
+    font-size: 1rem;
+  }
+
+  .chats {
+    width: 100%;
+    max-height: 64%;
+  }
+
+  .msg-container {
+    box-shadow: 1px 4px 5px 1px #c0c0c0;
+    margin: 1.5vw 0;
+  }
+
+  .msg-container p {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 5vw;
+    word-spacing: 1;
+
+  }
+
+.date-time {
+  font-weight: 500;
+  font-size: 0.6em;
+  right: 2vw;
+}
+
+.footer textarea {
+  padding: 2vw;
+  border-radius: 1.7em;
+  padding-right: 10vw;
+  font-size: 0.9rem;
+  letter-spacing: -0.4;
+  word-spacing: -2;
+  line-height: 1.4em;
+}
+
+
+.footer i {
+  position: inherit;
+  bottom: 20%;
+  right: 7%;
+  font-size: 1.5em;
+}
 }

@@ -5,6 +5,7 @@ const storedGroups = JSON.parse(localStorage.getItem("groups") || "[]");
 const initialState = {
   groups: storedGroups,
   selectedGroup: null,
+  isBackButtonClicked: false,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -18,6 +19,16 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         selectedGroup: action.payload,
+      };
+    case "BACK_HOME":
+      return {
+        ...state,
+        isBackButtonClicked: true,
+      };
+    case "RESET_BACK_HOME":
+      return {
+        ...state,
+        isBackButtonClicked: false,
       };
     default:
       return state;

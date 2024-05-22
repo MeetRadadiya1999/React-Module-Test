@@ -4,3 +4,12 @@
     background-color: #DAE5F5;
     position: relative;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .main{
+        display: none;
+        width: 100vw;
+    }
+}

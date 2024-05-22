@@ -9,7 +9,7 @@ function WelcomePage() {
 
 
   return (
-    <div className="main-div">
+    <div className="welcome-div">
         <img src='https://i.imgur.com/iayUAt5.png' alt="work" />
         <h3>Pocket Notes</h3>
         <p className="paragraph">Send and receive messages without keeping your phone online. <br /> Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>

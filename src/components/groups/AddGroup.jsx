@@ -42,7 +42,7 @@ const AddGroup = ({ onClose }) => {
          <span className={`color ${groupColor === "#F19576" ? "selected" : ""}`} style={{backgroundColor:"#F19576"}} onClick={() => setGroupColor("#F19576")}> </span>
          <span className={`color ${groupColor === "#0047FF" ? "selected" : ""}`} style={{backgroundColor:"#0047FF"}} onClick={() => setGroupColor("#0047FF")}> </span>
          <span className={`color ${groupColor === "#6691FF" ? "selected" : ""}`} style={{backgroundColor:"#6691FF"}} onClick={() => setGroupColor("#6691FF")}> </span>
-         </div>
+        </div>
         <button onClick={handleCreateGroup}>Create</button>
       </div>
     </div>

@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.hide{
+  display: none;
+}
+
 h1 {
   background-color: #fff;
   padding: 0.5vw 0;
@@ -99,5 +103,41 @@ li {
 @media screen and (max-width: 600px) {
   .groups {
     width: 100vw;
+  }
+
+  .ul-list {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  li {
+    justify-content: flex-start;
+    max-width: 80%;
+    font-size: 1.1em;
+    margin-left: 5vw;
+  }  
+
+  .list-wrapper {
+    max-width: 80%;
+    height: 13vw;
+    padding: 1.6vw 6vw;
+  }
+
+  
+.color-div {
+  width: 10vw;
+  height: 10vw;
+  margin-right: 0;
+  font-size: 1rem;
+}
+
+.add-btn {
+    bottom: 10%;
+    height: 10vw;
+    width: 10vw;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
